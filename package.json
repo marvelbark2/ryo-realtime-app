@@ -1,0 +1,34 @@
+{
+  "name": "ryo-realtime-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "tailwindcss -i ./styles/App.css -o ./public/styles.css",
+    "build": "ryo build",
+    "start": "ryo start",
+    "serve": "npm run build && npm run start",
+    "dev": "ryo dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chance": "^1.1.11",
+    "dataloader": "^2.2.2",
+    "graphql-tools": "^9.0.0",
+    "lokijs": "^1.5.12",
+    "ryo.js": "^0.0.0-meme.46",
+    "uuid": "^9.0.0",
+    "vue-toastification": "^2.0.0-rc.5"
+  },
+  "devDependencies": {
+    "@types/chance": "^1.1.5",
+    "@types/lokijs": "^1.5.12",
+    "@types/node": "^20.4.2",
+    "@types/uuid": "^9.0.2",
+    "daisyui": "^3.2.1",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.1.6"
+  }
+}

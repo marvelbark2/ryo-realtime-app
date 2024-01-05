@@ -1,0 +1,25 @@
+/.ssr
+/node_modules
+**/node_modules
+**.next
+**.env
+**.DS_Store
+**.vercel
+**.git
+.vercel
+**.idea
+/**.idea
+**/.vscode
+# Sentry
+/.vscode
+
+/out/
+.env.bk
+tsconfig.tsbuildinfo
+tests/
+
+# Sentry
+.sentryclirc
+
+# Sentry
+next.config.original.js
