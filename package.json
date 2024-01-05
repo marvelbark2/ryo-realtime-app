@@ -18,7 +18,7 @@
     "dataloader": "^2.2.2",
     "graphql-tools": "^9.0.0",
     "lokijs": "^1.5.12",
-    "ryo.js": "^0.0.0-meme.46",
+    "ryo.js": "^0.0.0-meme.47",
     "uuid": "^9.0.0",
     "vue-toastification": "^2.0.0-rc.5"
   },
