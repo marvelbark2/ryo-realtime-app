@@ -1,5 +1,6 @@
+/**
+ * @type {import('ryo.js').RyoConfig}
+*/
 module.exports = {
-    vue: {
-        uses: []
-    }
+    port: 80
 }
